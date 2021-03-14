@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="codetest01.js"></script>
+    <title>loop</title>
+</head>
+<body>
+    <h1>Loop & array</h1>
+    <script>
+        var coworkers = ['sum', 'ryeong', 'hoon', 'shoon', 'jin', 'mr.bang', 'ms.choi'];
+    </script>
+    <h2>Co workers</h2>
+    <ul>
+        <script>
+            /*document.write('<li>1</li>');
+            document.write('<li>2</li>');
+            document.write('<li>3</li>');
+            document.write('<li>4</li>');*/
+            /*var i = 0;
+            while(i < 3){
+                document.write('<li>2</li>');
+                i = i + 1;
+            }
+
+            document.write('<li>3</li>');*/
+            /*var i = 0;
+            while(i < coworkers.length){
+                document.write('<li>'+coworkers[i]+'</li>');
+                i = i + 1;
+            };*/
+            /*
+            for(var i = 0 ; i < coworkers.length ; i++ ) {
+                document.write('<li> '+coworkers[i]+'</li>')
+            }*/
+
+            var cafe = ['starbucks', 'ediya', 'venti', '10000lab'];
+
+            var i = 0;
+            while(i < cafe.length){
+                document.write('<li>' +cafe[i]+ '</li>');
+                i = i + 1;
+            };
+            //document.getElementsByTagName('li').style.listStyle='none';
+        </script>
+    </ul>
+</body>
+</html>
