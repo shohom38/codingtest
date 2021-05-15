@@ -6,3 +6,17 @@ a {
 li {
     list-style: none;
 }
+
+#listWrap > ul {
+    width: 300px;
+}
+
+#listWrap::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#listWrap > ul {
+    float: left;
+}
